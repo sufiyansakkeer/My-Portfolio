@@ -26,10 +26,19 @@ Ultra Profile
 https://templatemo.com/tm-464-ultra-profile
 
 -->
+
 </head>
 <body data-spy="scroll" data-target="#rock-navigation">
 	<!-- preloader -->
 	<div id="preloader"></div>
+	<script>
+		var loader = document.getElementById("preloader");
+	
+		window.addEventListener("load",function () {
+			loader.style.display="none";
+			
+		})
+	</script>
 	<!-- <div id="preloder">
 		<div class='body'>
 			<span>
@@ -397,13 +406,6 @@ https://templatemo.com/tm-464-ultra-profile
             })
         })
     </script>
-	<script>
-		var loader = document.getElementById("preloader");
-
-		window.addEventListener("load",function () {
-			loader.style.display="none";
-			
-		})
-	</script>
+	
 </body>
 </html>
