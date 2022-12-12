@@ -433,3 +433,14 @@ input { height: 50px; }
   .navbar-default .navbar-brand {  padding-top: 2px; }
 }
 /* END MEDIA 360 */
+
+/* preloader */
+#preloader{
+  background: #F4F8FE url('../images/0c6177b4db6b53aa698b12ed6cf56409.gif') no-repeat center center;
+  background-size: 15%;
+  position: fixed;
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+
+}

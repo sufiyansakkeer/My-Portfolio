@@ -9,9 +9,11 @@
 	<!-- SITE TITLE -->
 	<title>Sufiyan Sakkeer Portfolio Website</title>
 	<!-- ajax script added here -->
+	<script src="js/preloader.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/preloader.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/templatemo-style.css">
@@ -26,6 +28,32 @@ https://templatemo.com/tm-464-ultra-profile
 -->
 </head>
 <body data-spy="scroll" data-target="#rock-navigation">
+	<!-- preloader -->
+	<div id="preloader"></div>
+	<!-- <div id="preloder">
+		<div class='body'>
+			<span>
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</span>
+			<div class='base'>
+			  <span></span>
+			  <div class='face'></div>
+			</div>
+		  </div>
+		  <div class='longfazers'>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		  </div>
+		  <h1>Redirecting</h1>
+		  
+
+	</div> -->
+
 	<!-- START NAVIGATION -->
 	<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">
 		<div class="container">
@@ -215,7 +243,7 @@ https://templatemo.com/tm-464-ultra-profile
 					<h2 class="title">My <strong>Profile</strong></h2>
 					<p><span class="tm-info-label">Name</span> Sufiyan Sakkeer</p>
 					
-					<p><span class="tm-info-label">Address</span> Chalil house P.O Blangad ,Chavakkad, Thrissur</p>
+					<!-- <p><span class="tm-info-label">Address</span> Chalil house P.O Blangad ,Chavakkad, Thrissur</p> -->
 					<p><span class="tm-info-label">Phone</span> +91 81291 93008</p>
 					<p><span class="tm-info-label">Email</span> sufiyansakkeer616@gmail.com</p>
 					<p><span class="tm-info-label">Website</span> <a href="#" class="tm-red-text">www.sufiyansakkeer.com</a></p>
@@ -223,15 +251,15 @@ https://templatemo.com/tm-464-ultra-profile
 				<div class="col-md-6 col-sm-6">
 					<h2 class="title"><strong>Some</strong> Skills</h2>
 					<p>I learned everything myself, thats how came into tech industry .</p>
-					<h4 class="tm-progress-label">Html5 <small class="progress-percent-small">100%</small></h4>
+					<h4 class="tm-progress-label">Html5,CSS <small class="progress-percent-small">100%</small></h4>
 					<div class="progress tm-progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
 					</div>
-					<h4 class="tm-progress-label">CSS <small class="progress-percent-small">90%</small></h4>
+					<h4 class="tm-progress-label">JavaScript <small class="progress-percent-small">90%</small></h4>
 					<div class="progress tm-progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
 					</div>
-					<h4 class="tm-progress-label">JavaScript <small class="progress-percent-small">60%</small></h4>
+					<h4 class="tm-progress-label">Dart <small class="progress-percent-small">60%</small></h4>
 					<div class="progress tm-progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
 					</div>
@@ -342,6 +370,7 @@ https://templatemo.com/tm-464-ultra-profile
 		</div>
 	</section>
 	<!-- END CONTACT -->
+
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/smoothscroll.js"></script>
@@ -368,5 +397,13 @@ https://templatemo.com/tm-464-ultra-profile
             })
         })
     </script>
+	<script>
+		var loader = document.getElementById("preloader");
+
+		window.addEventListener("load",function () {
+			loader.style.display="none";
+			
+		})
+	</script>
 </body>
 </html>
